@@ -1,0 +1,12 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.sections::-webkit-scrollbar {
+  display: none;
+}
+
+.sections {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

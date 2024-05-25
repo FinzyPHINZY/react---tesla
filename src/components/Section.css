@@ -1,0 +1,4 @@
+.section {
+  position: relative;
+  scroll-snap-align: start;
+}

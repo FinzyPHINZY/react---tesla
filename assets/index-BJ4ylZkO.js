@@ -1362,8 +1362,8 @@ Error generating stack: `+i.message+`
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 `;const fn=({title:e,backgroundImg:t,description:n,rightBtnText:r,leftBtnText:o})=>R.jsxs(PS,{bgimage:t,className:"section",children:[R.jsx(Gf,{children:R.jsxs(NS,{children:[R.jsx("p",{className:"title",children:e}),R.jsx("p",{children:n})]})}),R.jsx(OS,{children:R.jsxs(Gf,{children:[R.jsxs(TS,{children:[R.jsx(Cm,{children:o}),r&&R.jsx(RS,{children:r})]}),R.jsx(zS,{src:"https://res.cloudinary.com/dfztelw7e/image/upload/v1716719246/down-arrow_pfnvfd.svg"})]})})]}),PS=ke.div`
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   background-size: cover;
   background-image: ${e=>`url(${e.bgimage})`};
   background-position: center;
@@ -1373,7 +1373,7 @@ Error generating stack: `+i.message+`
   justify-content: space-between;
   align-items: center;
 `,NS=ke.div`
-  padding-top: 15vh;
+  padding-top: 15dvh;
   text-align: center;
   .title {
     font-size: 48px;
@@ -1411,7 +1411,7 @@ Error generating stack: `+i.message+`
 `,OS=ke.div`
   text-align: center;
 `,IS=()=>R.jsx("div",{children:R.jsxs(MS,{className:"sections",children:[R.jsx(fn,{title:"Model Y",description:"Sleek curves, bold presence",backgroundImg:"https://res.cloudinary.com/dfztelw7e/image/upload/v1716719247/model-y_hb7nok.jpg",rightBtnText:"Existing Inventory",leftBtnText:"Custom Order"}),R.jsx(fn,{title:"Model 3",description:"Order Online for Touchless Delivery",backgroundImg:"https://res.cloudinary.com/dfztelw7e/image/upload/v1716719255/mod-3_nrqqum.jpg",rightBtnText:"Existing Inventory",leftBtnText:"Custom Order"}),R.jsx(fn,{title:"Model X",description:"Tight Lines, Futuristic Design",backgroundImg:"https://res.cloudinary.com/dfztelw7e/image/upload/v1716719249/model-x_sqownw.jpg",rightBtnText:"Existing Inventory",leftBtnText:"Custom Order"}),R.jsx(fn,{title:"Model S",description:"Luxurious comfort, spacious interiors",backgroundImg:"https://res.cloudinary.com/dfztelw7e/image/upload/v1716719247/mod-s_j2l1fh.jpg",rightBtnText:"Existing Inventory",leftBtnText:"Custom Order"}),R.jsx(fn,{title:"Lowest Cost Solar Panels in America",description:"Money-back guarantee",backgroundImg:"https://res.cloudinary.com/dfztelw7e/image/upload/v1716719247/solar-panel_n1l8mc.jpg",leftBtnText:"Order now",rightBtnText:"Learn more"}),R.jsx(fn,{title:"Solar for new roofs",description:"Solar Roof Costs Less Than a New Roof Plus Solar Panels",backgroundImg:"https://res.cloudinary.com/dfztelw7e/image/upload/v1716719247/solar-roof_y8lsbd.jpg",leftBtnText:"Order now",rightBtnText:"Learn more"}),R.jsx(fn,{title:"Accessories",description:"",backgroundImg:"https://res.cloudinary.com/dfztelw7e/image/upload/v1716719250/accessories_san8h7.jpg",leftBtnText:"Shop now"})]})}),MS=ke.div`
-  height: 100vh;
+  height: 100dvh;
   overflow: scroll;
   scroll-snap-type: y mandatory;
 `;function jS(){return R.jsxs("div",{className:"app",children:[R.jsx(Mv,{}),R.jsx(IS,{})]})}const LS=Ug({reducer:{car:cv}});u0(document.getElementById("root")).render(R.jsx(Iv,{store:LS,children:R.jsx(jS,{})}));

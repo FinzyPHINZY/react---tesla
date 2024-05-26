@@ -35,8 +35,8 @@ const Section = ({
 export default Section;
 
 const Wrap = styled.div`
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   background-size: cover;
   background-image: ${(props) => `url(${props.bgimage})`};
   background-position: center;
@@ -48,7 +48,7 @@ const Wrap = styled.div`
 `;
 
 const ItemText = styled.div`
-  padding-top: 15vh;
+  padding-top: 15dvh;
   text-align: center;
   .title {
     font-size: 48px;

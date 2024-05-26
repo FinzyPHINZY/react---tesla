@@ -9,7 +9,7 @@ const Home = () => {
         <Section
           title="Model Y"
           description="Sleek curves, bold presence"
-          backgroundImg="model-y.jpg"
+          backgroundImg="https://res.cloudinary.com/dfztelw7e/image/upload/v1716719247/model-y_hb7nok.jpg"
           rightBtnText="Existing Inventory"
           leftBtnText="Custom Order"
         />
@@ -17,7 +17,7 @@ const Home = () => {
         <Section
           title="Model 3"
           description="Order Online for Touchless Delivery"
-          backgroundImg="mod-3.jpg"
+          backgroundImg="https://res.cloudinary.com/dfztelw7e/image/upload/v1716719255/mod-3_nrqqum.jpg"
           rightBtnText="Existing Inventory"
           leftBtnText="Custom Order"
         />
@@ -25,7 +25,7 @@ const Home = () => {
         <Section
           title="Model X"
           description="Tight Lines, Futuristic Design"
-          backgroundImg="model-x.jpg"
+          backgroundImg="https://res.cloudinary.com/dfztelw7e/image/upload/v1716719249/model-x_sqownw.jpg"
           rightBtnText="Existing Inventory"
           leftBtnText="Custom Order"
         />
@@ -33,7 +33,7 @@ const Home = () => {
         <Section
           title="Model S"
           description="Luxurious comfort, spacious interiors"
-          backgroundImg="modell-3.jpg"
+          backgroundImg="https://res.cloudinary.com/dfztelw7e/image/upload/v1716719247/mod-s_j2l1fh.jpg"
           rightBtnText="Existing Inventory"
           leftBtnText="Custom Order"
         />
@@ -41,7 +41,7 @@ const Home = () => {
         <Section
           title="Lowest Cost Solar Panels in America"
           description="Money-back guarantee"
-          backgroundImg="solar-panel.jpg"
+          backgroundImg="https://res.cloudinary.com/dfztelw7e/image/upload/v1716719247/solar-panel_n1l8mc.jpg"
           leftBtnText="Order now"
           rightBtnText="Learn more"
         />
@@ -49,7 +49,7 @@ const Home = () => {
         <Section
           title="Solar for new roofs"
           description="Solar Roof Costs Less Than a New Roof Plus Solar Panels"
-          backgroundImg="solar-roof.jpg"
+          backgroundImg="https://res.cloudinary.com/dfztelw7e/image/upload/v1716719247/solar-roof_y8lsbd.jpg"
           leftBtnText="Order now"
           rightBtnText="Learn more"
         />
@@ -57,7 +57,7 @@ const Home = () => {
         <Section
           title="Accessories"
           description=""
-          backgroundImg="accessories.jpg"
+          backgroundImg="https://res.cloudinary.com/dfztelw7e/image/upload/v1716719250/accessories_san8h7.jpg"
           leftBtnText="Shop now"
         />
       </Container>

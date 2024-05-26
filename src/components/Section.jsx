@@ -25,7 +25,7 @@ const Section = ({
 
             {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
           </ButtonGroup>
-          <DownArrow src="images/images/down-arrow.svg" />
+          <DownArrow src="https://res.cloudinary.com/dfztelw7e/image/upload/v1716719246/down-arrow_pfnvfd.svg" />
         </Fade>
       </Buttons>
     </Wrap>
@@ -38,7 +38,7 @@ const Wrap = styled.div`
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  background-image: ${(props) => `url("/images/images/${props.bgimage}")`};
+  background-image: ${(props) => `url(${props.bgimage})`};
   background-position: center;
   background-repeat: no-repeat;
   display: flex;

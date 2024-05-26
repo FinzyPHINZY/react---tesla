@@ -10,16 +10,13 @@ const Header = () => {
   return (
     <Container>
       <a className="logo">
-        <img src="images/images/logo.svg" alt="" />
+        <img
+          src="https://res.cloudinary.com/dfztelw7e/image/upload/v1716719251/logo_ktsuuc.svg"
+          alt=""
+        />
       </a>
 
       <Menu>
-        {/* {cars &&
-          cars.map((car, i) => (
-            <a key={car} href="#">
-              {car}
-            </a>
-          ))} */}
         <a href="#">Vehicles</a>
         <a href="#">Energy</a>
         <a href="#">Charging</a>
@@ -46,29 +43,6 @@ const Header = () => {
               </a>
             </li>
           ))}
-
-        <li>
-          <a href="#">Help me choose</a>
-        </li>
-        <li>
-          <a href="#">Trade-In</a>
-        </li>
-        <li>
-          <a href="#">Cybertruck</a>
-        </li>
-        <li>
-          <a href="#">Roadster</a>
-        </li>
-        <li>
-          <a href="#">Charging</a>
-        </li>
-        <li>
-          <a href="#">Accessories</a>
-        </li>
-
-        <li>
-          <a href="#">Semis</a>
-        </li>
       </BurgerNav>
     </Container>
   );

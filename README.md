@@ -4,6 +4,7 @@
 
 This project is a clone of the Tesla website, developed to implement Redux in a real-world application and to showcase my React skills. It also makes use of styled-components for styling, ensuring a seamless and maintainable styling approach.
 
+![Preview](tesla.png)
 
 
 ## Table of Contents
